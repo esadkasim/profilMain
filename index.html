@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Esad kasim profil</title>
+  </head>
+  <body>
+    <!--loader-->
+    <div class="loader-wrapper">
+      <div class="loader"></div>
+    </div>
+    <!--nav-->
+    <nav>
+      <div id="logo">
+        <i class="fa-solid fa-code"></i> Esad <span id="logo-span">kasım</span>
+      </div>
+      <button id="nav-btn">BUY NOW</button>
+    </nav>
+    <!--bar/m-->
+    <div id="bar-m">
+      <i id="icon-aside" class="fa-solid fa-ellipsis-vertical"></i>
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <main>
+      <div id="container">
+        <div id="aside-m">
+          <div id="bio">
+            <div class="bio-a" id="imgg">
+              <i id="expand" class="fa-solid fa-expand"></i>
+              <div class="cir" id="circle"></div>
+              <div id="actin" class="actin">is actif</div>
+            </div>
+            <a href="#">Esad kasım</a>
+            <p>frontend developer</p>
+          </div>
+          <div id="about">
+            <div id="info">
+              <ul>
+                <li>
+                  <h3>adress:</h3>
+                  <span>türkiye</span>
+                </li>
+                <li>
+                  <h3>job:</h3>
+                  <span>programing</span>
+                </li>
+                <li>
+                  <h3>age:</h3>
+                  <span>23</span>
+                </li>
+              </ul>
+            </div>
+
+            <div id="line"></div>
+
+            <div id="circles">
+              <div id="circle-space1">
+                <div id="circle1">
+                  <h4>100%</h4>
+                </div>
+                <h4 id="circle-text">arabic</h4>
+              </div>
+              <div id="circle-space1">
+                <div id="circle1">
+                  <h4>100%</h4>
+                </div>
+                <h4 id="circle-text">english</h4>
+              </div>
+
+              <div id="circle-space1">
+                <div id="circle1">
+                  <h4>100%</h4>
+                </div>
+                <h4 id="circle-text">turkish</h4>
+              </div>
+            </div>
+            <div id="line1"></div>
+
+            <div class="skill" id="skills">
+              <h4>
+                <div>HTML</div>
+                <div><span id="add" class="num" data-goal="80">0</span>%</div>
+              </h4>
+              <div id="progress">
+                <span
+                  id="progressSpan"
+                  style="width: '50px'"
+                  data-width="85%"
+                ></span>
+              </div>
+              <h4>JS</h4>
+              <div id="progress">
+                <span
+                  id="progressSpan"
+                  style="width: 0"
+                  data-width="60%"
+                ></span>
+              </div>
+              <h4>CSS</h4>
+              <div id="progress">
+                <span
+                  id="progressSpan"
+                  style="width: 0"
+                  data-width="70%"
+                ></span>
+              </div>
+              <h4>REACT</h4>
+              <div id="progress">
+                <span
+                  id="progressSpan"
+                  style="width: 0"
+                  data-width="80%"
+                ></span>
+              </div>
+            </div>
+            <div id="line2"></div>
+            <div id="skills2">
+              <h5 id="skill2">
+                <span><i class="fa-solid fa-check"></i></span>Bootstrap,
+                Materialize
+              </h5>
+              <h5 id="skill2">
+                <span><i class="fa-solid fa-check"></i></span>Stylus, Sass, Less
+              </h5>
+              <h5 id="skill2">
+                <span><i class="fa-solid fa-check"></i></span>Gulp, Webpack,
+                Grunt
+              </h5>
+              <h5 id="skill2">
+                <span><i class="fa-solid fa-check"></i></span>GIT knowledge
+              </h5>
+            </div>
+            <div id="line3"></div>
+            <div id="cv">
+              <a href="#">DOWNLOAD CV<i class="fa-solid fa-download"></i></a>
+            </div>
+            <div id="aside-footer">
+              <i class="fa-brands fa-linkedin"></i>
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-instagram"></i>
+            </div>
+          </div>
+        </div>
+
+        <div id="help-menu">
+          <i
+            id="help-icon"
+            class="fa-regular fa-eye-slash"
+            onclick="hideHelpBar()"
+          >
+            <span id="hide">hide</span></i
+          >
+          <i class="fa-regular fa-life-ring"><span>help</span></i>
+          <i class="fa-solid fa-cart-shopping"> <span>buy</span></i>
+          <i onclick="hov()" class="fa-regular fa-thumbs-up">
+            <span>related</span></i
+          >
+        </div>
+
+        <div class="aside">
+          <div id="bio">
+            <div class="bio-a" id="imgg">
+              <a href="./photos/1693521367578.jpeg" data-fancybox="profile" data-caption="Profil Fotoğrafı">c</a>
+              <i id="expand" class="fa-solid fa-expand"></i>
+              <div class="cir" id="circle"></div>
+              <div id="actin" class="actin">is actif</div>
+            </div>
+
+            <a href="#">Esad kasım</a>
+            <p>frontend developer</p>
+          </div>
+
+          <div id="about">
+            <div id="info">
+              <ul>
+                <li>
+                  <h3>adress:</h3>
+                  <span>türkiye</span>
+                </li>
+                <li>
+                  <h3>jop:</h3>
+                  <span>programing</span>
+                </li>
+                <li>
+                  <h3>age:</h3>
+                  <span>23</span>
+                </li>
+              </ul>
+            </div>
+
+            <div id="line"></div>
+
+            <div id="circles">
+              <div id="circle-space1">
+                <div id="circle1">
+                  <h4>100%</h4>
+                </div>
+                <h4 id="circle-text">arabic</h4>
+              </div>
+              <div id="circle-space1">
+                <div id="circle1">
+                  <h4>95%</h4>
+                </div>
+                <h4 id="circle-text">turkish</h4>
+              </div>
+
+              <div id="circle-space1">
+                <div id="circle1">
+                  <h4>60%</h4>
+                </div>
+                <h4 id="circle-text">english</h4>
+              </div>
+            </div>
+            <div id="line1"></div>
+            <div class="skill" id="skills">
+              <h4>
+                <div>HTML</div>
+                <div><span id="add" class="progressNum" data-goal=85 >0</span>%</div>
+              </h4>
+              <div id="progress">
+                <span
+                  id="progressSpan"
+                  style="width: 0"
+                  data-width="85%"
+                ></span>
+              </div>
+
+              <h4>
+                <div>JS</div>
+                <div><span id="add" class="progressNum" data-goal="80" >0</span>%</div>
+              </h4>
+              <div id="progress">
+                <span
+                  id="progressSpan"
+                  style="width: 0"
+                  data-width="80%"
+                ></span>
+              </div>
+
+              <h4>
+                <div>CSS</div>
+                <div><span id="add" class="progressNum" data-goal="75">0</span>%</div>
+              </h4>
+              <div id="progress">
+                <span
+                  id="progressSpan"
+                  style="width: 0"
+                  data-width="75%"
+                ></span>
+              </div>
+            
+            </div>
+            <div id="line2"></div>
+            <div id="skills2">
+              <h5 id="skill2">
+                <span><i class="fa-solid fa-check"></i></span>Bootstrap,
+                Materialize
+              </h5>
+              <h5 id="skill2">
+                <span><i class="fa-solid fa-check"></i></span>Stylus, Sass, Less
+              </h5>
+              <h5 id="skill2">
+                <span><i class="fa-solid fa-check"></i></span>Gulp, Webpack,
+                Grunt
+              </h5>
+              <h5 id="skill2">
+                <span><i class="fa-solid fa-check"></i></span>GIT knowledge
+              </h5>
+            </div>
+            <div id="line3"></div>
+            <div id="cv">
+              <a href="#">DOWNLOAD CV<i class="fa-solid fa-download"></i></a>
+            </div>
+          </div>
+          <div id="aside-footer">
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+        </div>
+
+        <div id="page">
+          <div id="section1">
+            <div>
+              <h1>Discover my Amazing Art space!</h1>
+
+              <h4>
+                &lt;<span id="spann">code</span>&gt;
+                <span id="jss">I build</span>
+                <span id="auto-type"></span> &lt;<span id="spann">/code</span
+                >&gt;
+              </h4>
+              <button id="explore-btn">EXPLORE NOW</button>
+            </div>
+            <img src="./photos/full-stack.png" id="png" alt="" />
+          </div>
+
+          <div class="section2" id="section2">
+            <h4 id="mywork">
+              <span class="num" data-goal="30" id="span-mywork1">0 </span>bla
+              bla
+            </h4>
+            <h4 id="mywork">
+              <span class="num" data-goal="200" id="span-mywork1">0 </span>WEB
+              SİTE
+            </h4>
+            <h4 id="mywork">
+              <span class="num" data-goal="80" id="span-mywork1">55 </span>MOBİL
+              APP
+            </h4>
+            <h4 id="mywork">
+              <span class="num" data-goal="10" id="span-mywork1">10</span>PROJE
+            </h4>
+          </div>
+
+          <h2 id="section2-title">My services</h2>
+          <div id="section3">
+            <div id="sevice-card">
+              <h3>web development</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perferendis porro ab eveniet est et labore reprehenderit.
+              </p>
+              <a href="#"
+                >order now
+                <span id="order-gt"
+                  ><i class="fa-solid fa-arrow-right"></i></span
+              ></a>
+            </div>
+            <div id="sevice-card">
+              <h3>web development</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perferendis porro ab eveniet est et labore reprehenderit.
+              </p>
+              <a href="#"
+                >order now
+                <span id="order-gt"
+                  ><i class="fa-solid fa-arrow-right"></i></span
+              ></a>
+            </div>
+            <div id="sevice-card">
+              <h3>web development</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perferendis porro ab eveniet est et labore reprehenderit.
+              </p>
+              <a href="#"
+                >order now
+                <span id="order-gt"
+                  ><i class="fa-solid fa-arrow-right"></i></span
+              ></a>
+            </div>
+            <div id="sevice-card">
+              <h3>web development</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perferendis porro ab eveniet est et labore reprehenderit.
+              </p>
+              <a href="#"
+                >order now
+                <span id="order-gt"
+                  ><i class="fa-solid fa-arrow-right"></i></span
+              ></a>
+            </div>
+            <div id="sevice-card">
+              <h3>web development</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perferendis porro ab eveniet est et labore reprehenderit.
+              </p>
+              <a href="#">order now <span id="order-gt">&gt;</span></a>
+            </div>
+            <div id="sevice-card">
+              <h3>web development</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Perferendis porro ab eveniet est et labore reprehenderit.
+              </p>
+              <a href="#">order now <span id="order-gt">&gt;</span></a>
+            </div>
+          </div>
+          <h2 id="section4-title">Price plans</h2>
+          <div id="section4">
+            <div id="price-plan">
+              <h4>starter Price</h4>
+              <p>$ <span id="price">FREE </span>hour*</p>
+              <i id="icon-price" class="fa-solid fa-check"></i> Ui Design <br />
+              <i id="icon-price" class="fa-solid fa-check"></i> Web Development
+              <br />
+              <i id="icon-price" class="fa-solid fa-x"></i>Logo design <br />
+              <i id="icon-price" class="fa-solid fa-x"></i
+              ><span id="price-opcity">SEO optimization </span><br />
+              <i id="icon-price" class="fa-solid fa-x"></i>
+              <span id="price-opcity">WordPress integration</span> <br />
+              <a href="#"> ORDER NOW </a
+              ><i id="arrow" class="fa-solid fa-arrow-right"></i> <br />
+              <span id="freee">Free only when ordering paid services</span>
+            </div>
+            <div id="price-plan">
+              <h4>starter Price</h4>
+              <p>$ <span id="price">49.99 </span>hour*</p>
+              <i id="icon-price" class="fa-solid fa-check"></i>Ui Design <br />
+              <i id="icon-price" class="fa-solid fa-check"></i>Web Development
+              <br />
+              <i id="icon-price" class="fa-solid fa-check"></i>Logo design
+              <br />
+              <i id="icon-price" class="fa-solid fa-x"></i> SEO optimization
+              <br />
+              <i id="icon-price" class="fa-solid fa-x"></i>WordPress integration
+              <br />
+              <a href="#"> ORDER NOW</a
+              ><i id="arrow" class="fa-solid fa-arrow-right"></i> <br />
+            </div>
+            <div id="price-plan">
+              <h4>starter Price</h4>
+              <p>$ <span id="price">99.99</span>hour*</p>
+              <i id="icon-price" class="fa-solid fa-check"></i> Ui Design <br />
+              <i id="icon-price" class="fa-solid fa-check"></i> Web Development
+              <br />
+              <i id="icon-price" class="fa-solid fa-check"></i> Logo design
+              <br />
+              <i id="icon-price" class="fa-solid fa-check"></i> SEO optimization
+              <br />
+              <i id="icon-price" class="fa-solid fa-check"></i> WordPress
+              integration <br />
+              <a href="#"> ORDER NOW</a>
+              <i id="arrow" class="fa-solid fa-arrow-right"></i> <br />
+            </div>
+          </div>
+
+          <h3 id="section5-title">Recommendations</h3>
+          <div id="section5">
+            <div id="comment-card">
+              <div id="commenter">
+                <h4 id="name-comment">Ahmed kasım</h4>
+                <img
+                  src="./photos/blank-profile-picture-973460_960_720.webp"
+                  id="comment-img"
+                  alt=""
+                />
+              </div>
+              <h6 id="name-comment1">template author</h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci cupiditate maxime libero quibusdam praesentium
+                perspiciatis omnis aliquid totam.
+              </p>
+              <div id="stars">
+                <i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <div id="comment-card">
+              <div id="commenter">
+                <h4 id="name-comment">Ahmed kasım</h4>
+                <img
+                  src="./photos/1693521367578.jpeg"
+                  id="comment-img"
+                  alt=""
+                />
+              </div>
+              <h6 id="name-comment1">template author</h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci cupiditate maxime libero quibusdam praesentium
+                perspiciatis omnis aliquid totam.
+              </p>
+              <div id="stars">
+                <i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <div id="comment-card">
+              <div id="commenter">
+                <h4 id="name-comment">Ahmed kasım</h4>
+                <img src="./1693521367578.jpeg" id="comment-img" alt="" />
+              </div>
+              <h6 id="name-comment1">template author</h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci cupiditate maxime libero quibusdam praesentium
+                perspiciatis omnis aliquid totam.
+              </p>
+              <div id="stars">
+                <i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i>
+              </div>
+            </div>
+
+            <div id="comment-card">
+              <div id="commenter">
+                <h4 id="name-comment">Ahmed kasım</h4>
+                <img
+                  src="./photos/—Pngtree—glasses programmer working overtime_5469446.png"
+                  id="comment-img"
+                  alt=""
+                />
+              </div>
+              <h6 id="name-comment1">template author</h6>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Adipisci cupiditate maxime libero quibusdam praesentium
+                perspiciatis omnis aliquid totam.
+              </p>
+              <div id="stars">
+                <i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i
+                ><i id="star" class="fa-solid fa-star"></i>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <img src="./photos/brand-1-464x512.png" alt="image" />
+            <img src="./photos/brand-2-458x512.png" alt="image" />
+            <img src="./photos/brand-2-458x512.png" alt="image" />
+            <img src="./photos/brand-1-464x512.png" alt="image" />
+          </footer>
+          <div id="footer-bar">
+            <h5>© 2023 All Rights Reserved.</h5>
+            <h5>
+              Email: <a href="mailto:esadak00@gmail.com"></a>esadak00@gmail.com
+            </h5>
+          </div>
+        </div>
+
+        <div class="bar">
+          <div id="bar">
+            <div id="menu-bar">
+              <i class="fa-solid fa-bars" id="i-bar"></i>
+            </div>
+            <a href="*" id="i-bar1">HOME</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>
